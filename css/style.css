@@ -45,10 +45,6 @@
 
 /* fine seconda riga */
 
-/* inizio terza riga */
-.container_terza_riga{
-    background-color: rgb(226, 236, 244);
-}
 
 
 .col-250{
@@ -58,14 +54,6 @@
 
 /* fine terza riga */
 
-/* inizio quarta riga */
-
-.container_quarta_riga{
-    background-color: rgba(74, 97, 115, 0.623);
-}
-
-
-/* fine quarta riga */
 
 /* inizio sesta riga */
 
@@ -284,7 +272,7 @@ button:hover{
 
 /* inizio terza riga */
 
-#item1{
+.item1{
     width: 100%;
 }
 
@@ -294,6 +282,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -311,3 +300,27 @@ button:hover{
 }
 
 /* fine terza riga */
+
+
+/* inizio quarta riga */
+
+.row_quarta{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.container_quarta_riga{
+    background-color: #F1F1F1;
+}
+
+
+.wave{
+    opacity: 0.05;
+    margin-top: 40px;
+    margin-bottom: -3px;
+}
+
+/*fine quarta riga */
