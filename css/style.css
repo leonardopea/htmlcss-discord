@@ -47,20 +47,12 @@
 
 /* inizio terza riga */
 .container_terza_riga{
-    background-color: rgb(217, 226, 233);
+    background-color: rgb(226, 236, 244);
 }
 
-.col_terza_riga{        /* tutte le colonne della terza riga */
-    background-color: rgb(43, 120, 202);     
-    height: 260px;
-    border: 2px dashed black;
-    margin: 30px 0px ;
-
-}
 
 .col-250{
-    width: calc(25%);
-    background-color: rgb(250,218,221)
+    width: calc(18%);
     
 }
 
@@ -288,3 +280,34 @@ button:hover{
 }
 
 /* fine seconda riga */
+
+
+/* inizio terza riga */
+
+#item1{
+    width: 100%;
+}
+
+.row_terza{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.main_content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+/* fine terza riga */
