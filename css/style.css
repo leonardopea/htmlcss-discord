@@ -153,6 +153,7 @@ hr{
 
 .col_nav:hover{
     text-decoration: underline;
+    color: yellow;
 }
 /* fine nav */
 
@@ -184,6 +185,7 @@ button{
 }
 button:hover{
     color: rgb(95, 59, 172);
+    box-shadow: 2px 3px  rgb(95, 59, 172);
 }
 
 
@@ -235,26 +237,25 @@ button:hover{
 #black_button{
     background-color: black;
     color: white;
-    border: black;
     font-size: 16px;
     padding: 15px;
 
 }
  
 #black_button:hover{
-    box-shadow: 2px 3px  rgba(32, 12, 12, 0.315);
-    color: pink;
+    box-shadow: 2px 3px  #F75AAA;
+    color: #F75AAA;
 }
 
 #white_button{
     font-size: 16px;
     padding: 15px;
-    border: white;
 
 }
 
 #white_button:hover{
-    box-shadow: 2px 3px rgba(255, 255, 255, 0.463);
+    box-shadow: 2px 3px green;
+    color: green;
 }
 
 
@@ -323,4 +324,26 @@ button:hover{
     margin-bottom: -3px;
 }
 
+.item2{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.wave2{
+    opacity: 0.05;
+    transform: rotate(180deg)
+}
+
 /*fine quarta riga */
+
+
+/* inizio quinta riga */
+
+.item3{
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+
+/* fine quinta riga */
