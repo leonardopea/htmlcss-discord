@@ -7,19 +7,20 @@
 .jumbotron{
     width: 100%;
     font-family: Montserrat;
+    font-size: 14px;
     
 }
 
 .row{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* inizio prima riga */
 
 
 .col_prima_riga{        /* tutte le colonne della prima riga */
-    background-color: orange;
     margin: 20px 0px ;
 
 }
@@ -34,18 +35,11 @@
 
 /* fine prima riga */
 
-/* inizio seconda riga */
-
-.container_seconda_riga{
-    background-color: rgb(35, 33, 147);
-}
+/* inizio seconda riga*/
 
 .col-500{
     width: calc(50%);
-    height: 250px;
-    background-color: rgb(232, 82, 187);
     margin: 30px 0;
-    border: 2px dashed black;
 }
 
 
@@ -135,28 +129,27 @@ hr{
     justify-content: center;
 }
 
+/* inizio logo */
+
+.row_logo{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+/* fine logo */
+
+
+
+
 /* parte testuale */
 
-#logo{
-    padding-left: 5px;
-    padding-top: 4px;
-}
 
-#nav{
-    padding-top: 4px;
-}
-
-#login{
-    padding-top: 4px;
-    text-align: end;
-    padding-right: 5px;
-
-}
 
 .bottone{
     margin: 10px 0px ;
     padding: 5px 15px;
-    border: 2px dashed black;
     background-color: #d58377;
 }
 
@@ -168,12 +161,130 @@ hr{
 .row_nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 
 .col_nav{
     text-decoration: none;
     color: white;
+
+}
+
+.col_nav:hover{
+    text-decoration: underline;
 }
 /* fine nav */
 
+img{
+    width: 500px;
+}
+
+/* inizio bottone accesso */
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+.row_access{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    border-radius: 40px;
+    background-color: white;
+    padding: 7px 16px;
+    font-size: 14px;
+    border-color: white
+}
+button:hover{
+    color: rgb(95, 59, 172);
+}
+
+
+/* inizio immagine logo */
+
+#img_logo{
+    width: 90%;
+}
+
+/* fine bottone accesso */
+
+
+.back_img{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 100%;
+}
+
+
+/* inizio seconda riga */
+
+
+/* title */
+
+.row_title{
+    display: flex;
+    justify-content: center;
+}
+
+.col_title{
+    color:white;
+}
+
+
+
+/* subtitle */
+
+.row_subtitle{
+    display: flex;
+    margin: 2rem 1rem ;
+    justify-content:center;
+    text-align: center;
+    color: white;
+}
+
+/* bottoni */
+
+#black_button{
+    background-color: black;
+    color: white;
+    border: black;
+    font-size: 16px;
+    padding: 15px;
+
+}
+ 
+#black_button:hover{
+    box-shadow: 2px 3px  rgba(32, 12, 12, 0.315);
+    color: pink;
+}
+
+#white_button{
+    font-size: 16px;
+    padding: 15px;
+    border: white;
+
+}
+
+#white_button:hover{
+    box-shadow: 2px 3px rgba(255, 255, 255, 0.463);
+}
+
+
+
+.row_button{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+
+/* fine seconda riga */
