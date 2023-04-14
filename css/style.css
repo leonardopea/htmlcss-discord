@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    width: 100%;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+/* inizio prima riga */
+
+.container_prima_riga{
+    background-color: rgb(134, 186, 224);
+}
+
+.col_prima_riga{        /* tutte le colonne della prima riga */
+    background-color: orange;
+    height: 30px;
+    border: 2px dashed black;
+    margin: 10px 0px ;
+
+}
+.col-125{
+    width: calc(12.5%);
+    
+}
+.col-375{
+    width: calc(37.5%);
+    
+}
+
+/* fine prima riga */
+
+/* inizio seconda riga */
+
+.container_seconda_riga{
+    background-color: rgb(35, 33, 147);
+}
+
+.col-500{
+    width: calc(50%);
+    height: 250px;
+    background-color: rgb(232, 82, 187);
+    margin: 30px 0;
+    border: 2px dashed black;
+}
+
+
+/* fine seconda riga */
+
+/* inizio terza riga */
+.container_terza_riga{
+    background-color: rgb(217, 226, 233);
+}
+
+.col_terza_riga{        /* tutte le colonne della terza riga */
+    background-color: rgb(43, 120, 202);     
+    height: 260px;
+    border: 2px dashed black;
+    margin: 30px 0px ;
+
+}
+
+.col-250{
+    width: calc(25%);
+    background-color: rgb(250,218,221)
+    
+}
+
+/* fine terza riga */
+
+/* inizio quarta riga */
+
+.container_quarta_riga{
+    background-color: rgba(74, 97, 115, 0.623);
+}
+
+
+/* fine quarta riga */
+
+/* inizio sesta riga */
+
+.col-625{
+    width: calc(62.5%);
+    height: 600px;
+    background-color: green;
+    margin: 30px;
+    border: 2px dashed black;
+}
+
+
+.container_sesta_riga{
+    background-color: black;
+}
+
+.col-7{
+    width: calc(17%);
+    background-color: #d46351 ;
+    height: 400px;
+    margin-top: 20px;
+    border: 2px dashed black;
+
+}
+
+.col-6{
+    width: calc(11.3%);
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(10, 147, 131);
+    border: 2px dashed white
+
+}
+
+hr{
+    color: rgb(95, 104, 104);
+}
+
+
+.col-foot{
+    width: calc(62.5%);
+    height:50px;
+    background-color: rgb(47, 238, 200);
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-foot{
+    display: flex;
+    justify-content: center;
+}
+
+/* parte testuale */
+
+#logo{
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+#nav{
+    text-align: center;
+    padding-top: 4px;
+}
+
+#login{
+    padding-top: 4px;
+    text-align: end;
+    padding-right: 5px;
+
+}
+
+.bottone{
+    margin: 10px 0px ;
+    padding: 5px 15px;
+    border: 2px dashed black;
+    background-color: #d58377;
+}
+
