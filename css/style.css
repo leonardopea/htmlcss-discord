@@ -59,23 +59,16 @@
 
 .col-625{
     width: calc(62.5%);
-    height: 600px;
-    background-color: green;
-    margin: 30px;
-    border: 2px dashed black;
+    text-align: center;
+    padding-top: 65px;
+
 }
 
-
-.container_sesta_riga{
-    background-color: black;
-}
 
 .col-7{
     width: calc(17%);
     background-color: #d46351 ;
     height: 400px;
-    margin-top: 20px;
-    border: 2px dashed black;
 
 }
 
@@ -85,7 +78,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(10, 147, 131);
-    border: 2px dashed white
+    
 
 }
 
@@ -320,8 +313,7 @@ button:hover{
 
 .wave{
     opacity: 0.05;
-    margin-top: 40px;
-    margin-bottom: -3px;
+    margin-bottom: -3.1px;
 }
 
 .item2{
@@ -341,9 +333,43 @@ button:hover{
 
 .item3{
     width: 100%;
-    margin-bottom: 100px;
 
 }
 
 
 /* fine quinta riga */
+
+
+/* sesta riga */
+
+.foot_content{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#stars{
+    width: 50%;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.bottone{
+    margin-top: 20px;
+    background-color: rgb(82, 82, 161);
+    color: white;
+    padding: 10px;
+
+}
+
+.bottone:hover{
+    color: black;
+}
+/* fine sesta riga */
+
+/* inizio footer */
+
+.container_footer{
+    margin-top: 50px;
+    background-color: black;
+}
+/* fine footer */
