@@ -338,8 +338,11 @@ button:hover{
     font-size: 25px;
 }
 
-.col-6 > p{
+.col-6 > a{
     line-height: 30px;
+}
+a{
+    display: block;
 }
 
 
